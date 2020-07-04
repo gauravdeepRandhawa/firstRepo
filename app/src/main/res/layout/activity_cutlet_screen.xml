@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dhoklaScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/cutlet" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="140dp"
+            android:fontFamily="sans-serif"
+            android:text="Cutlet"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ingredientTxt"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="289dp"
+            android:layout_marginBottom="476dp"
+            android:paddingStart="10dp"
+            android:text="ingredients:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ingTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="326dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="* 2 large potatoes, peeled and diced\n* 1 carrot, peeled and diced\n* 1/2 cup fresh green beans, trimmed and snapped\n* 1/4 cup frozen green peas1 egg11\n* 1/2 cups bread crumbs\n* 1/2 teaspoon garam masala\n* 1/4 teaspoon cayenne peppersalt to taste\n* 1/4 cup vegetable oil for frying"/>
+
+        <TextView
+            android:id="@+id/methodTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="519dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="6dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="Step 1-Place the potatoes, carrot, green beans, and peas in a pot with enough water to cover. Bring to a boil, reduce heat to low, cover, and simmer 15 minutes, until potatoes are tender. Drain vegetables, transfer to a bowl, and mash with a potato masher, leaving a few small chunks.\nStep 2-Mix the egg, 3/4 cup bread crumbs, garam masala, cayenne pepper, and salt into the bowl with the mashed vegetables. Form the mixture into small patties about 1/2 inch thick. Dredge the patties in the remaining bread crumbs to coat.\nStep 3-Heat the oil in a large skillet over medium heat, and fry the coated patties until golden brown. Drain on paper towels." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="102dp"
+            android:layout_height="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="309dp"
+            android:layout_marginBottom="267dp"
+            android:paddingStart="10dp"
+            android:text="Method:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="294dp"
+            android:background="@color/colorAccent1"
+            android:text="Serving 6" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="152dp"
+            android:background="@color/colorAccent1"
+            android:text="Prep Time 15m" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/colorAccent1"
+            android:text="Cook time 35m" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dhoklaScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/alootikki" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="140dp"
+            android:fontFamily="sans-serif"
+            android:text="Aloo Tikki"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ingredientTxt"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="289dp"
+            android:layout_marginBottom="476dp"
+            android:paddingStart="10dp"
+            android:text="ingredients:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ingTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="326dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="* Potato 3-4 large\n* Ghee to fry\n* Fresh coriander leaves chopped a few sprigs\n* Rock salt (sendha namak) to taste\n* Asafoetida a pinch\n* Red chilli powder 1/2 tablespoon"/>
+
+        <TextView
+            android:id="@+id/methodTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="487dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="6dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="Step 1-Wash, boil potatoes, peel and mash while still warm. Add green chillies, coriander leaves, rock salt, asafoetida and red chilli powder to the mashed potatoes and mix well.\nStep 2-Divide into ten to twelve portions. Shape them into round tikkis. Heat a tawa and shallow fry the tikkis on both sides with ghee till golden.\nStep 3-Drain onto an absorbent paper. Serve with green chutney or lemon pickle."/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="102dp"
+            android:layout_height="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="452dp"
+            android:layout_marginEnd="309dp"
+            android:layout_marginBottom="267dp"
+            android:paddingStart="10dp"
+            android:text="Method:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="294dp"
+            android:background="@color/colorAccent1"
+            android:text="Serving 4" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="152dp"
+            android:background="@color/colorAccent1"
+            android:text="Prep Time 30m" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/colorAccent1"
+            android:text="Cook time 20m" />
+    </RelativeLayout>
+</ScrollView>

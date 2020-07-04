@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="Welcome">Experience New Style Of Cooking</string>
+    <string name="indianCuisine">Welcome To TRADITIONAL Indian Cuisine</string>
+    <string name="imageView">TODO</string>
+    <string name="hello">HELLO</string>
+    <string name="non_vegetarian_text">Non-Vegetarian</string>
+    <string name="quick_recipes_text">Quick Recipes</string>
+    <string name="vegetarian_text">Vegetarian</string>
+    <string name="quick_recipes_heading">Quick Recipes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quick_recipes">Quick Recipes</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="non_vegetarian">Non-Vegetarian</string>
+    <string name="indian_cuisine_text">Indian Cuisine</string>
+    <string name="veg_text_view">Vegetarian Options</string>
+    <string name="non_vegetarian_options">Non-Vegetarian Options</string>
+    <string name="you_might_like_these">you might like these:</string>
+    <string name="vegimage">TODO</string>
+    <string name="nonvegimage">TODO</string>
+    <string name="listItm">TextView</string>
+    <string name="dishImage">TODO</string>
+    <string name="starters">Starters</string>
+    <string name="vadaa">vada pav</string>
+    <string name="spring_roll">spring roll</string>
+    <string name="munchurian">munchurian</string>
+    <string name="paneer_r">Paneer roll</string>
+    <string name="mommos">Momos</string>
+    <string name="dhokla">Dhokla</string>
+    <string name="bhelpuri">Bhelpuri</string>
+    <string name="crunchy">crunchy</string>
+    <string name="aloo_tikki">aloo tikki</string>
+    <string name="kebab">Button</string>
+    <string name="momos">Momos</string>
+    <string name="aloo_tiki">Aloo tikki</string>
+    <string name="cutlett">cutlet</string>
+    <string name="dhoklaa">Dhokla</string>
+    <string name="Dhokla">titleText</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="gram_flour_besan_sieved_2_cups_n_yogurt_beaten_1_cup_n_salt_to_taste_n_turmeric_powder_1_2_teaspoon_n_green_chilli_ginger_paste_1_teaspoon_n_oil_2_tablespoons_n_lemon_juice_1_tablespoon_n_soda_bicarbonate_1_teaspoon_n_mustard_seeds_1_teaspoon_n_fresh_coriander_leaves_chopped_2_tablespoons_n_coconut_scraped_1_2_cup">* Gram flour (besan) sieved 2 cups * Yogurt beaten 1 cup * Salt to taste * Turmeric powder 1/2 teaspoon * Green chilli-ginger paste 1 teaspoon * Oil 2 tablespoons * Lemon juice 1 tablespoon * Soda bicarbonate 1 teaspoon * Mustard seeds 1 teaspoon * Fresh coriander leaves chopped 2 tablespoons * Coconut scraped 1/2 cup</string>
+    <string name="method_nstep_1_take_gram_flour_in_a_bowl_add_yogurt_and_approximately_one_cup_of_warm_water_and_mix_avoid_lumps_add_salt_and_mix_again_nstep_2_leave_it_aside_to_ferment_for_three_to_four_hours_when_gram_flour_mixture_has_fermented_add_turmeric_powder_and_green_chilli_ginger_paste_mix_heat_the_steamer_grease_a_thali_nstep_3_in_a_small_bowl_take_lemon_juice_soda_bicarbonate_one_teaspoon_of_oil_and_mix_add_it_to_the_batter_and_whisk_briskly_pour_batter_into_the_greased_thali_and_place_it_in_the_steamer_nstep_4_cover_with_the_lid_and_steam_for_ten_minutes_when_a_little_cool_cut_into_squares_and_keep_in_a_serving_bowl_plate_nstep_5_heat_remaining_oil_in_a_small_pan_add_mustard_seeds_when_the_seeds_begin_to_crackle_remove_and_pour_over_the_dhoklas_nstep_6_serve_garnished_with_chopped_coriander_leaves_and_scraped_coconut">Method Step 1 - Take gram flour in a bowl. Add yogurt and approximately one cup of warm water and mix. Avoid lumps. Add salt and mix again. Step 2 - Leave it aside to ferment for three to four hours. When gram flour mixture has fermented, add turmeric powder and green chilli-ginger paste. Mix. Heat the steamer. Grease a thali. Step 3 - In a small bowl take lemon juice, soda bicarbonate, one teaspoon of oil and mix. Add it to the batter and whisk briskly. Pour batter into the greased thali and place it in the steamer. Step 4 - Cover with the lid and steam for ten minutes. When a little cool, cut into squares and keep in a serving bowl/plate. Step 5 - Heat remaining oil in a small pan. Add mustard seeds. When the seeds begin to crackle, remove and pour over the dhoklas. Step 6 - Serve, garnished with chopped coriander leaves and scraped coconut.</string>
+</resources>

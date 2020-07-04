@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dhoklaScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/momoImg"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/momos" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="140dp"
+            android:fontFamily="sans-serif"
+            android:text="Momos"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="294dp"
+            android:background="@color/colorAccent1"
+            android:text="Serving 10" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="152dp"
+            android:background="@color/colorAccent1"
+            android:text="Prep Time 10m" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/colorAccent1"
+            android:text="Cook time 40m" />
+
+        <TextView
+            android:id="@+id/ingredientTxt"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="288dp"
+            android:layout_marginEnd="289dp"
+            android:layout_marginBottom="476dp"
+            android:paddingStart="10dp"
+            android:text="ingredients:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ingTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="326dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="For Dough:\n* 2 cups maida\n* 1/2 tsp salt\n* 1/2 tsp baking powder\n* For Filling:\n* 1 cup carrots, grated\n* 1 cup cabbage, grated\n* 1 tbsp oil\n* 1/2 cup onion, finely chopped\n* 1 tsp garlic, chopped\n* 1 tsp soya sauce\n* salt\n* 1/4 tsp vinegar\n* 1/4 tsp black pepper" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="102dp"
+            android:layout_height="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="583dp"
+            android:layout_marginEnd="309dp"
+            android:layout_marginBottom="267dp"
+            android:paddingStart="10dp"
+            android:text="Method:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/methodTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="615dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="6dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="Step 1-Mix the maida, salt and baking powder and knead to a stiff dough with water.\nStep 2-Heat oil and add the onion and garlic.\nStep 3-Saute over high heat and add the carrot and cabbage. Turn around over high heat till glossy.\nStep 4-Take it off the heat and mix in the soya sauce, salt, vinegar and black pepper.\nStep 5-Roll the dough thin (translucent) and cut into 4-5 rounds. \nStep 6-Take a round, wet edges and place some filling in the center.\nStep 7-Bring edges together to cover the filling. Twist to seal and fill the rest in the same way.\nStep 8.Steam for about 10 minutes and serve with soya sauce and chilli sauce." />
+    </RelativeLayout>
+</ScrollView>

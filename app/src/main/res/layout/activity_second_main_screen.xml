@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".SecondMainScreen">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.recipeapp.TopFragment"
+        android:layout_width="413dp"
+        android:layout_height="175dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/top_fragment" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.recipeapp.BottomFragment"
+        android:layout_width="414dp"
+        android:layout_height="566dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout="@layout/bottom_fragment" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="380dp"
+        android:layout_height="224dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/dhokla"
+            android:layout_width="171dp"
+            android:layout_height="99dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/dhokla"
+            android:gravity="bottom|center_horizontal"
+            android:onClick="clickToVisitDhoklaRecipe"
+            android:text="@string/dhoklaa"
+            android:textColor="#FFFAF7F9"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/momos"
+            android:layout_width="171dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/momos"
+            android:gravity="bottom|center_horizontal"
+            android:onClick="clickToVisitMomosRecipe"
+            android:text="@string/momos"
+            android:textColor="#FFFAF7F9"
+            android:textSize="14sp"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/alootikki"
+            android:layout_width="171dp"
+            android:layout_height="99dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/vegkabab"
+            android:gravity="bottom|center_horizontal"
+            android:onClick="clickToVisitAlooTikki"
+            android:text="@string/aloo_tiki"
+            android:textColor="#FFFAF7F9"
+            android:textSize="14sp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/cutlet"
+            android:layout_width="171dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/rollpaneer"
+            android:gravity="bottom|center_horizontal"
+            android:onClick="clickToVisitCutlet"
+            android:text="@string/cutlett"
+            android:textColor="#FFFAF7F9"
+            android:textSize="14sp"
+            app:layout_column="1"
+            app:layout_row="1" />
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>

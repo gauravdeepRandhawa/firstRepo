@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BhelpuriScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="400dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/bhellpuri" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="140dp"
+            android:fontFamily="sans-serif"
+            android:text="Bhelpuri"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ingredientTxt"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="289dp"
+            android:layout_marginBottom="476dp"
+            android:paddingStart="10dp"
+            android:text="ingredients:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ingTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="326dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="* 2 cups puffed rice (murmura)\n* 1/2 cup fine sev\n* 1 cup finely chopped onions\n* 1 cup boiled and cubed potatoes\n* 8 poories\n* 1 Tbsp green chutney- mixed together with water\n* 1/4 cup date chutney-mixed together with water\n* 1 Tbsp lemon juice\n* 1 Tbsp salt\n* Coriander leaves for garnish\nFor green chutney:\n* Coriander leaves\n* Garlic\n* Green chillies\n* A little lemon juice\nFor date chutney :\n* Dried dates-pureed\n* Dried powdered ginger"/>
+
+        <TextView
+            android:id="@+id/methodTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="678dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="6dp"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:text="Step 1-Mix all together, garnish with sev and coriander leaves and serve.\nStep 2-For the green chutney:\nGrind together equal quantities of coriander leaves, garlic to taste and green chillies and add some lemon juice.\nStep 3-For the date chutney:\nCook and puree dried dates and add some dried powdered ginger." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="102dp"
+            android:layout_height="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="649dp"
+            android:layout_marginEnd="309dp"
+            android:layout_marginBottom="267dp"
+            android:paddingStart="10dp"
+            android:text="Method:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="294dp"
+            android:background="@color/colorAccent1"
+            android:text="Serving 2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="152dp"
+            android:background="@color/colorAccent1"
+            android:text="Prep Time 5m" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="222dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/colorAccent1"
+            android:text="Cook time 25m" />
+    </RelativeLayout>
+</ScrollView>
